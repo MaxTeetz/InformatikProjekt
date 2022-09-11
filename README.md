@@ -36,7 +36,7 @@ Da einige Bauteile u.a. auch der Motor nicht mehr hergestellt werden bzw. eine s
 wurde hier auf ähnliche Bauteile ausgewichen.
 
 Ausweichbauteile:
-1. TODO
+1. TODO Teil1 &#8594; Teil2
 
 ### Screen View:
 
@@ -51,9 +51,33 @@ https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_s
 
 Die Platinen wurden ursprünglich mit dem Designwerkzeug [Altium Designer](https://www.altium.com/de) konstruiert und wie folgt beschrieben in gerber Dateien exportiert.
 
-Der Altium Designer zerlegt die Platine in verschiedene schichten bzw. "Schichtdateien", somit müssen diese in der endsprechenden Reihenfolge
+Der Altium Designer zerlegt die Platine in verschiedene schichten bzw. "Schichtdateien", somit müssen diese in der endsprechenden Kennzeichnung
 wieder zusammengeführt werden.
 
+### PCB schichten:
 
-### Base PCB schichten:
+Sowohl bei der Screen View als auch bei der Base View werden die gleichen Bezeichnungen benutzt.
+Zur identifikation der einzelnen schichten sind diese hier einmal aufgelistet:
 
+
+- Top Copper: *.GTL
+- Top Solder Mask: *.GTS
+- Top Silkscreen: *.GTO
+- Bottom copper: *.GBL
+- Bottom Solder Mask: *.GBS
+- Bottom Silkscreen: *.GBO
+- Mechanical: *.GKO
+- Drill Layer: *.drl
+- Edge Cuts: *.gm1
+
+_**Wichtig:**_ 
+
+Im Altium Designer muss der Drill Layer gesondert eingegeben werden! 
+
+Wenn die Schichten importiert und zugeordnet wurden, kann diese Datei im PcbDoc Format exportiert werden.
+Da sich diese mit der Version von Altium ändern können, wird hier auf die Dokumentation von Altium verlinkt:
+[Altium Dokumentation](https://www.altium.com/documentation/knowledge-base/altium-designer/gerber-to-pcb)
+
+Diese Datei kann dann zur fertigung bei einem Hersteller genutzt werden. 
+Für dieses Projekt wurde die Platine extern beim Hersteller [Beta Layout GmbH](https://de.beta-layout.com/leiterplatten/) 
+hergestellt.
