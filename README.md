@@ -13,9 +13,7 @@ Das Projekt gliedert sich in folgende Schritte:
 3. Ermittelung und ggf. Anpassung der benötigten 3D-Bauteile.
 4. Druck der Bauteile.
 5. Assemblieren der elektronischen Komponenten auf der Platine.
-6. Testen der Elektronik auf korrekte funktion.
-7. Zusammenbau der 3D-Bauteile und der elektronischen Komponenten.
-8. Aufspielen der Software.
+6. Aufspielen der Software.
 
 
 Der haptische Controller sieht anschließend wie folgt aus:
@@ -114,3 +112,7 @@ und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgende
 <img height="300" src="images/mikroskop.jpeg" width="300"> <img height="300" src="images/screen_löten.jpeg" width="300"> 
 <img height="300" src="images/screen.jpeg" width="300"> <img height="300" src="images/ofen.jpeg" width="300">
 </details>
+
+## Aufspielen der Software
+
+TODO
