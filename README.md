@@ -106,9 +106,11 @@ Die elektronischen Kleinbauteile sind aufgrund ihrer größe nur schwer per hand
 dazu entschieden die Bauteile mittels einer Vakuumpipette auf die jeweiligen Kontakte zu legen und diese anschließen mittels eines
 Lötofens zu fixen. Da dies jedoch nicht für alle Bauteile möglich/nötig war, wurden die Kontaktstellen wie z.B. den USB-Anschluss
 und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgenden noch einmal dargestellt.
-
+<details>
+  <summary>Verlöten der Bauteile: </summary>
 <img height="300" src="images/usbLöten.jpeg" width="300"> <img height="300" src="images/draht.jpeg" width="300">
 <img height="300" src="images/lötkolben.jpeg" width="300"> <img height="300" src="images/usbLöten.jpeg" width="300">
 <img height="300" src="images/usb_mikroskop.jpeg" width="300"> <img height="300" src="images/usb.jpeg" width="300">
 <img height="300" src="images/mikroskop.jpeg" width="300"> <img height="300" src="images/screen_löten.jpeg" width="300"> 
 <img height="300" src="images/screen.jpeg" width="300"> <img height="300" src="images/ofen.jpeg" width="300">
+</details>
