@@ -81,3 +81,7 @@ Da sich diese mit der Version von Altium ändern können, wird hier auf die Doku
 Diese Datei kann dann zur fertigung bei einem Hersteller genutzt werden. 
 Für dieses Projekt wurde die Platine extern beim Hersteller [Beta Layout GmbH](https://de.beta-layout.com/leiterplatten/) 
 hergestellt.
+
+
+## Anpassung der 3D-Bauteile
+
