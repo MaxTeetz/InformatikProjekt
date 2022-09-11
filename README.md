@@ -52,7 +52,7 @@ https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_s
 
 ### Platinendesign Screen View PCB:
 
-<img height="300" src="images/view_screen-front-3d.png" width="300"> <img height="300" src="images/view_screen-back-3d.png"width="300">
+<img height="300" src="images/view_screen-front-3d.png" width="300"> <img height="300" src="images/view_screen-back-3d.png" width="300">
 
 Die Platinen wurden ursprünglich mit dem Designwerkzeug [Altium Designer](https://www.altium.com/de) konstruiert und wie folgt beschrieben in gerber Dateien exportiert.
 
