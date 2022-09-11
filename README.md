@@ -49,6 +49,11 @@ https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_s
 
 <img height="300" src="images/view_base-front-3d.png" width="300"/> <img height="300" src="images/view_base-back-3d.png" width="300">
 
+
+### Platinendesign Screen View PCB:
+
+<img height="300" src="images/view_screen-front-3d.png" width="300"> <img height="300" src="images/view_screen-back-3d.png"width="300">
+
 Die Platinen wurden ursprünglich mit dem Designwerkzeug [Altium Designer](https://www.altium.com/de) konstruiert und wie folgt beschrieben in gerber Dateien exportiert.
 
 Der Altium Designer zerlegt die Platine in verschiedene schichten bzw. "Schichtdateien", somit müssen diese in der endsprechenden Kennzeichnung
@@ -85,3 +90,23 @@ hergestellt.
 
 ## Anpassung der 3D-Bauteile
 
+Da dieses Projekt einen Alternativen Motor für den haptischen Controller nutzt, müssen seitens der 3D-Bauteile 
+änderungen vorgenommen werden. 
+Um dies zu erreichen, wurde zum Editieren der Bauteile, das open source Tool [Blender](https://www.blender.org/) genutzt.
+Hiermit wurden u.a. die Löcher für die Schrauben entfernt & das Bauteil skaliert.
+Außerdem wurde das Tool [FreeCAD](https://www.freecadweb.org/) genutzt, um benötigte löcher wieder hinzuzufügen.
+
+Anschließend wurden die 3D-Modelle gedruckt, verwendet wurde herkömmlicher Kunststoff & Metall für die MountBase.
+
+### 3D-Bauteile
+
+
+<details>
+  <summary>The title of the image group</summary>
+    <img height="300" src="images/BackPlate.PNG" width="300">
+    <img height="300" src="images/enclosure.png" width="300"/>
+    <img height="300" src="images/knob.png" width="300"/> 
+    <img height="300" src="images/mountbase.PNG" width="300"/> 
+    <img height="300" src="images/rotor.PNG" width="300"/>  
+    <img height="300" src="images/screen_platform.PNG" width="300"/> 
+</details>
