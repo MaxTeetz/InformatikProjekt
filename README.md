@@ -47,8 +47,8 @@ https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_s
 
 ### Platinendesign Base PCB:
 
-<img height="300" src="images/view_base-front-3d.png" width="300"/>
-<img height="300" src="images/view_base-back-3d.png" width="300">
+<img height="200" src="images/view_base-front-3d.png" width="200"/>
+<img height="200" src="images/view_base-back-3d.png" width="200">
 
 Die Platinen wurden ursprünglich mit dem Designwerkzeug [Altium Designer](https://www.altium.com/de) konstruiert und wie folgt beschrieben in gerber Dateien exportiert.
 
