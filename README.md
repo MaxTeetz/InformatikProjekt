@@ -1,8 +1,25 @@
 # DREA
 
-Das Projekt DREA zielt darauf ab, einen haptischen Drehcontroller zu bauen.
-Der Fokus des Projekts liegt hierbei auf dem Rekonstruieren eines bereits existierenden Prototypen 
-[Smartknob](https://github.com/scottbez1/smartknob) von [scottbez1](https://github.com/scottbez1), welcher bereits einige Funktionen unterstützt.
+Das Ziel des Forschungs- und Entwicklungsvorhabens »DREA« ist die Entwicklung eines innovativen haptischen Drehcontrollers, welcher 
+für die Nutzung multifunktionaler Systeme genutzt werden kann. In aussicht steht diesen Drehcontroller mit einer Giff- und Gestensteuerung zu versehen,
+um damit eine große Anzahl von Funktionen auf verschiedenen Geräten zu ermöglichen. Die idee liegt darin, dass beispielsweise mit drei Fingern die
+Lautstärke reguliert und mit vier Fingern die Anwendung gewechselt werden kann. 
+Ebenso soll der Drehcontroller über haptisches Feedback verfügen, damit eine intuitive bzw. barrierefreie nutzung möglich wird. 
+Somit besteht der erste Meilenstein darin, die Konzeption sowie der Prototypenentwicklung als auch der Evaluation des Drehcontrollers auf Basis
+von integrierter Elektronik und Software. Zweiteres wird im zweiten Meilenstein kontinuierlich weiterentwickelt und hat die Zielsetzung intelligentes verhalten
+in die Software zu integrieren, sodass diese vom Nutzerverhalten lernt. 
+Der Forschungsbereich fokussiert sich hierbei auf die Erforschung einer entsprechenden Sensorik, Aktuatorik und die Prototypisierung der Funktionalität in Hardware und Software.  
+
+Zur Realisierung der oben genannten Punkte wird hier auf ein bereits bestehendes Projekt zurückgegriffen, welches sich bereits mit dem
+Design sowie der Konstruktion passender Hardwarekomponenten auseinandergesetzt hat. Deshalb orientiert sich das Projekt zunächst für den ersten Meilenstein
+am nachbau des von [scottbez1](https://github.com/scottbez1) entwickelten [Smartknob](https://github.com/scottbez1/smartknob) Projekt.
+Dies stellt sowohl eine übersicht über Design, Hardware und auch eine experimentelle Version von Software zur verfügung, welche
+zur Hardwaresteuerung genutzt wird.
+
+**_Hinweis:_** Sowohl Design des Controllers als auch die Software können/werden sich im Laufe des Projekts verändern, um 
+die oben beschriebe Zielsetzung erfüllen zu können.
+
+
 
 ## Projektaufbau
 
@@ -115,4 +132,15 @@ und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgende
 
 ## Aufspielen der Software
 
-TODO
+Für die Funktionalität des Controllers ist neben der Hardware auch Software zur Steuerung dieser nötig. 
+Hierfür liefert das Referenzprojekt bereits eine Lauffähige version von C++ code mit und wird auch für die Inbetriebnahme
+des Controllers genutzt. 
+Jedoch bedarf es hierfür einer entsprechend dafür ausgelegten Bibliothek, welche ein auf die Hardware zugeschnittenes interface
+zur verfügung stellt. Aus diesem Grund wird die frei verfügbare und auch im Referenzprojekt genutzten Bibliothek [PlatformIO](https://platformio.org/) zur ansteuerung der 
+Hardware genutzt. Diese befinden sich im ordner lib.
+Im Ordner src befinden sich alle nötigen Dateien zur Ansteuerung der Hardware.
+
+Für den Prototypen werden hier keine Änderungen am Code vorgenommen, sondern dieser lediglich kompiliert und über die USB Schnittstelle
+aufgespielt.
+
+_**Hinweis:_** Für nachfolgende Projekte kann sich der Code ändern, da ursprünglich geplant war den Controller Softwareseitig weiterzuentwickeln.
