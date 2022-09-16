@@ -12,7 +12,7 @@ Der Forschungsbereich fokussiert sich hierbei auf die Erforschung einer entsprec
 
 Zur Realisierung der oben genannten Punkte wird hier auf ein bereits bestehendes Projekt zurückgegriffen, welches sich bereits mit dem
 Design sowie der Konstruktion passender Hardwarekomponenten auseinandergesetzt hat. Deshalb orientiert sich das Projekt zunächst für den ersten Meilenstein
-am nachbau des von [scottbez1](https://github.com/scottbez1) entwickelten [Smartknob](https://github.com/scottbez1/smartknob) Projekt.
+am nachbau des von [scottbez1](https://github.com/scottbez1) entwickelten [Smartknob](https://github.com/scottbez1/smartknob) Projekts.
 Dies stellt sowohl eine übersicht über Design, Hardware und auch eine experimentelle Version von Software zur verfügung, welche
 zur Hardwaresteuerung genutzt wird.
 
@@ -35,7 +35,7 @@ Das Projekt gliedert sich in folgende Schritte:
 
 Der haptische Controller sieht anschließend wie folgt aus:
 
-![Controller Design](images/explodedv145.gif)
+![Controller Design](images/explodedv145.gif) [source](https://github.com/scottbez1/smartknob/blob/master/doc/img/explodedv145.gif)
 
 ## Ermittlung & Dokumentation
 
