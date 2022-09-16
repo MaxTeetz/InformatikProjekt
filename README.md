@@ -35,7 +35,9 @@ Das Projekt gliedert sich in folgende Schritte:
 
 Der haptische Controller sieht anschließend wie folgt aus:
 
-![Controller Design](images/explodedv145.gif) [source](https://github.com/scottbez1/smartknob/blob/master/doc/img/explodedv145.gif)
+![Controller Design](images/explodedv145.gif) 
+
+[source](https://github.com/scottbez1/smartknob/blob/master/doc/img/explodedv145.gif)
 
 ## Ermittlung & Dokumentation
 
