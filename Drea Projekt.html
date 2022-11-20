@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt DREA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="website/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="website/blog.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<main class="container">
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Projekt DREA</h1>
+            <p class="lead my-3">Das Ziel des Forschungs- und Entwicklungsvorhabens »DREA« ist die Entwicklung eines innovativen haptischen Drehcontrollers, welcher
+                für die Nutzung multifunktionaler Systeme genutzt werden kann. In aussicht steht diesen Drehcontroller mit einer Giff- und Gestensteuerung zu versehen,
+                um damit eine große Anzahl von Funktionen auf verschiedenen Geräten zu ermöglichen. Die idee liegt darin, dass beispielsweise mit drei Fingern die
+                Lautstärke reguliert und mit vier Fingern die Anwendung gewechselt werden kann.
+                Ebenso soll der Drehcontroller über haptisches Feedback verfügen, damit eine intuitive bzw. barrierefreie nutzung möglich wird.
+                Somit besteht der erste Meilenstein darin, die Konzeption sowie der Prototypenentwicklung als auch der Evaluation des Drehcontrollers auf Basis
+                von integrierter Elektronik und Software. Zweiteres wird im zweiten Meilenstein kontinuierlich weiterentwickelt und hat die Zielsetzung intelligentes verhalten
+                in die Software zu integrieren, sodass diese vom Nutzerverhalten lernt.
+                Der Forschungsbereich fokussiert sich hierbei auf die Erforschung einer entsprechenden Sensorik, Aktuatorik und die Prototypisierung der Funktionalität in Hardware und Software.
+
+                Zur Realisierung der oben genannten Punkte wird hier auf ein bereits bestehendes Projekt zurückgegriffen, welches sich bereits mit dem
+                Design sowie der Konstruktion passender Hardwarekomponenten auseinandergesetzt hat. Deshalb orientiert sich das Projekt zunächst für den ersten Meilenstein
+                am nachbau des von <a href="https://github.com/scottbez1">scottbez1</a> entwickelten <a href="https://github.com/scottbez1/smartknob"> Smartknob</a> Projekts.
+                Dies stellt sowohl eine übersicht über Design, Hardware und auch eine experimentelle Version von Software zur verfügung, welche
+                zur Hardwaresteuerung genutzt wird.</p>
+        </div>
+    </div>
+
+
+
+    <div class="row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                Projektaufbau
+            </h3>
+
+            <article class="blog-post">
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <p> <dt>Hinweis:</dt> Sowohl Design des Controllers als auch die Software können/werden sich im Laufe des Projekts verändern, um
+                        die oben beschriebe Zielsetzung erfüllen zu können. </p>
+                </div>
+                <h2 class="blog-post-title"></h2>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h3>Das Projekt gliedert sich in folgende Schritte: </h3>
+                    <ol>
+                        <li>Ermittlung & Dokumentation der elektronischen Komponenten, welche für das Projekt nötig sind</li>
+                        <li>Rekonstruktion der Leiterplatine und deren Herstellung</li>
+                        <li>Ermittelung und ggf. Anpassung der benötigten 3D-Bauteile</li>
+                        <li>  Druck der Bauteile </li>
+                        <li>Assemblieren der elektronischen Komponenten auf der Platine</li>
+                        <li>Testen der Hardware</li>
+                        <li>Aufspielen der Software</li>
+                    </ol>
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h3> Zielsetzung:</h3>
+                    <p>
+                        Wie oben beschrieben ist das Ziel die Realisierung des im Smartknob Projekt gezeigten Controllers, als
+                        erste version. Dazu wird das unten gezeigte Designkonzept genutzt.
+
+                    </p>
+
+                </div>
+
+                <div class="p-4 mb-3 bg-transparent rounded">
+                    <h4>Controller Design</h4>
+                    <img src="https://raw.githubusercontent.com/scottbez1/smartknob/master/doc/img/explodedv145.gif" class="rounded">
+                    </img>
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h3>Ressourcenermittlung & Dokumentation</h3>
+                    <p>
+                        Da das Referenzprojekt bereits eine Liste der benötigten Komponenten zur verfügung stellt, wird hier darauf verweisen.
+                    </p>
+                    </div>
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+
+
+                    <h4> PCB Base:</h4>
+                    <a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-ibom.html"> Base PCB </a>
+
+                    <p><dt>Hinweis:</dt>
+                        Da einige Bauteile u.a. auch der Motor nicht mehr hergestellt werden bzw. eine sehr hohe wartezeit bei der Bestellung mit sich bringen,
+                        wurde hier auf ähnliche Bauteile ausgewichen.
+                    </p>
+                    <h4>Ausweichbauteile:</h4>
+                    <ul>
+                        <li>Fehlendes Bauteil 1 &#8594 genutztes Bauteil 1 ggf link </li>
+                    </ul>
+
+                    <h4> Screen View:</h4>
+                    <a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_screen-ibom.html"> Screen PCB</a>
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark ">
+                    <h4>Platinenrekonstruktion</h4>
+                    <p> Für die Rekonstruktion der Platinen wurden die im Smartknob Projekt mitgelieferten Gerber Dateien genutzt.
+                        Nach der Rekonstruktion sehen diese wie folgt aus:
+                    </p>
+                    <dt>
+                        PCB Base:
+                    </dt>
+                    <img src="images/view_base-front-3d.png" width="40%" >
+                    <img src="images/view_base-back-3d.png" width="40%">
+
+                    <dt>
+                        Screen View PCB:
+                    </dt>
+
+                    <img src="images/view_screen-front-3d.png" width="40%">
+                    <img src="images/view_screen-back-3d.png" width="40%">
+
+                    <p>
+                        <dt>
+                            Rekonstruktionsbeschreibung:
+                        </dt>
+                        Die Platinen wurden ursprünglich mit dem Designwerkzeug <a href="https://www.altium.com/de"> Altium</a>
+                        konstruiert und wie folgt beschrieben in gerber Dateien exportiert.
+                    </p>
+                    <p>
+                        Der Altium Designer zerlegt die Platine in verschiedene schichten bzw. "Schichtdateien", somit müssen diese in der endsprechenden Kennzeichnung
+                        wieder zusammengeführt werden.
+                    </p>
+
+                    <dt>
+                        PCB Schichten:
+                    </dt>
+                    <p>
+                        Sowohl bei der Screen View als auch bei der Base View werden die gleichen Bezeichnungen benutzt.
+                        Zur identifikation der einzelnen schichten sind diese hier einmal aufgelistet:
+                    </p>
+
+                    <ul>
+                        <li>Top Copper: *.GTL</li>
+                        <li>Top Solder Mask: *.GTS</li>
+                        <li>Top Silkscreen: *.GTO</li>
+                        <li>Bottom copper: *.GBL</li>
+                        <li>Bottom Solder Mask: *.GBS</li>
+                        <li>Bottom Silkscreen: *.GBO</li>
+                        <li>Mechanical: *.GKO</li>
+                        <li>Drill Layer: *.drl</li>
+                        <li>Edge Cuts: *.gm1</li>
+                    </ul>
+                    <dt>
+                        Wichtig:
+                    </dt>
+                    <p>
+                        Im Altium Designer muss der Drill Layer gesondert eingegeben werden!
+
+                        Wenn die Schichten importiert und zugeordnet wurden, kann diese Datei im PcbDoc Format exportiert werden.
+                        Da sich diese mit der Version von Altium ändern können, wird hier auf die Dokumentation von Altium verlinkt:
+                    </p>
+                    <a href="https://www.altium.com/documentation/knowledge-base/altium-designer/gerber-to-pcb"> Altium Dokumentation </a>
+                    <pre></pre>
+                    <dt>
+                        Herstellung der Platine:
+                    </dt>
+                    <p>
+                        Diese Datei kann dann zur fertigung bei einem Hersteller genutzt werden.
+                        Für dieses Projekt wurde die Platine extern beim Hersteller <a href="https://de.beta-layout.com/leiterplatten/">Beta Layout GmbH</a>
+                        hergestellt.
+                    </p>
+                </div>
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h3>
+                        Anpassung der 3D-Bauteile
+                    </h3>
+                    <p>
+                        Da dieses Projekt einen Alternativen Motor für den haptischen Controller nutzt, müssen seitens der 3D-Bauteile
+                        änderungen vorgenommen werden.
+                        Um dies zu erreichen, wurde zum Editieren der Bauteile, das open source Tool <a href="https://www.blender.org/"> Blender</a> genutzt.
+                        Hiermit wurden u.a. die Löcher für die Schrauben entfernt & das Bauteil skaliert.
+                        Außerdem wurde das Tool <a href="https://www.freecadweb.org/"> FreeCAD</a> genutzt, um benötigte löcher wieder hinzuzufügen.
+                    </p>
+
+                    <p>
+                        Anschließend wurden die 3D-Modelle gedruckt, verwendet wurde herkömmlicher Kunststoff & Metall für die MountBase.
+                        <a href="https://bezeklabs.autodesk360.com/g/shares/SH35dfcQT936092f0e4372570ef992887b79">Übersicht 3D-Bauteile</a>
+                    </p>
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h3>
+                        Assemblieren der elektronischen Komponenten
+                    </h3>
+                    <p>
+                        Die elektronischen Kleinbauteile sind aufgrund ihrer größe nur schwer per hand zu verlöten. Aus diesem Grund haben wir uns
+                        dazu entschieden die Bauteile mittels einer Vakuumpipette auf die jeweiligen Kontakte zu legen und diese anschließen mittels eines
+                        Lötofens zu fixen. Da dies jedoch nicht für alle Bauteile möglich/nötig war, wurden die Kontaktstellen wie z.B. den USB-Anschluss
+                        und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgenden noch einmal dargestellt.
+                    </p>
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 rounded bg-light">
+                    <h4> Arbeitsschritte </h4>
+                    <div class="w3-content w3-display-container ">
+                        <img class="mySlides"  src="images/usbLöten.jpeg"  style="width: 100%">
+                        <img class="mySlides"  src="images/draht.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/lötkolben.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/usbLöten.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/usb_mikroskop.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/usb.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/mikroskop.jpeg" style="width: 100%">
+                        <img class="mySlides"  src="images/screen_löten.jpeg"  style="width: 100%">
+                        <img class="mySlides"  src="images/screen.jpeg"  style="width: 100%">
+                    </div>
+                </div>
+
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h4>Aufspielen der Software</h4>
+
+                    <p>
+                        Für die Funktionalität des Controllers ist neben der Hardware auch Software zur Steuerung dieser nötig.
+                        Hierfür liefert das Referenzprojekt bereits eine Lauffähige version von C++ code mit und wird auch für die Inbetriebnahme
+                        des Controllers genutzt.
+                        Jedoch bedarf es hierfür einer entsprechend dafür ausgelegten Bibliothek, welche ein auf die Hardware zugeschnittenes interface
+                        zur verfügung stellt. Aus diesem Grund wird die frei verfügbare und auch im Referenzprojekt genutzten Bibliothek <a href="https://platformio.org/">PlatformIO</a> zur ansteuerung der
+                        Hardware genutzt. Diese befinden sich im ordner lib.
+                        Im Ordner src befinden sich alle nötigen Dateien zur Ansteuerung der Hardware.
+
+                        Für den Prototypen werden hier keine Änderungen am Code vorgenommen, sondern dieser lediglich kompiliert und über die USB Schnittstelle
+                        aufgespielt.
+                    </p>
+
+                    <dt>
+                        Hinweis:
+                    </dt>
+
+                    <p>
+                        Für nachfolgende Projekte kann sich der Code ändern, da ursprünglich geplant war den Controller Softwareseitig weiterzuentwickeln.
+                    </p>
+
+                </div>
+
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+                    <h4>
+                        Reflextion des Projekts
+                    </h4>
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 text-white bg-dark rounded">
+                    <h4 class="fst-italic">moxd lab</h4>
+                    <p class="mb-0">Für weitere informationen: <a href="https://moxd.io/drea/">moxd lab</a></p>
+                </div>
+
+
+                    <div class="p-4 mb-3  text-white bg-dark rounded">
+                    <h4 class="fst-italic">Quellen</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="https://github.com/scottbez1"> scottbez1 </a></li>
+                        <li><a href="https://github.com/scottbez1/smartknob"> Smartknob</a> </li>
+                        <li><a href="https://www.altium.com/de"> Altium</a></li>
+                        <li><a href="https://www.altium.com/documentation/knowledge-base/altium-designer/gerber-to-pcb"> Altium Dokumentation </a></li>
+                        <li><a href="https://de.beta-layout.com/leiterplatten/">Beta Layout GmbH</a></li>
+                        <li><a href="https://platformio.org/">PlatformIO</a> </li>
+                        <li><a href="https://moxd.io/drea/">moxd lab</a> </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+</script>
+
+
+</body>
+</html>

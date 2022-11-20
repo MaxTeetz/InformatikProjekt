@@ -202,4 +202,5 @@ void DisplayTask::setBrightness(uint16_t brightness) {
   brightness_ = brightness;
 }
 
+
 #endif
