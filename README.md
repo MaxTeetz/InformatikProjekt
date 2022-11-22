@@ -39,8 +39,6 @@ Der haptische Controller sieht anschließend wie folgt aus:
 
 ![Controller Design](images/explodedv145.gif)
 
-<img src="images/explodedv145.gif" alt="SmartKnob overview">
-
 [source](https://github.com/scottbez1/smartknob/blob/master/doc/img/explodedv145.gif)
 
 ## Ermittlung & Dokumentation
@@ -153,7 +151,7 @@ Im Ordner src befinden sich alle nötigen Dateien zur Ansteuerung der Hardware.
 Für den Prototypen werden hier keine Änderungen am Code vorgenommen, sondern dieser lediglich kompiliert und über die USB Schnittstelle
 aufgespielt.
 
-_**Hinweis:_** Für nachfolgende Projekte kann sich der Code ändern, da ursprünglich geplant war den Controller Softwareseitig weiterzuentwickeln.
+_**Hinweis:**_ Für nachfolgende Projekte kann sich der Code ändern, da ursprünglich geplant war den Controller Softwareseitig weiterzuentwickeln.
 
 ## Reflextion des Projekts
 
