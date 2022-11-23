@@ -163,16 +163,22 @@ aufgespielt.
 
 _**Hinweis:**_ Für nachfolgende Projekte kann sich der Code ändern, da ursprünglich geplant war den Controller Softwareseitig weiterzuentwickeln.
 
+
+Aufgrund von Hardwareproblemen war es nicht möglich den USB-C Port mittels PlatformIO zu erkennen. Grund dafür war eine überspannung 
+am USB-C Port, was darauf hindeutet, dass der USB-C Port eventuell defekt sein könnte, da bereits versucht wurde mit mehr Stromzufuhr die Überspannung 
+auszugleichen.
+
+
 ## Reflextion des Projekts
 
-Die Durchführung des rekonstruierens den Prototypen war ein voller Erfolg trotz der fehlenden Bauteile,
+Die Durchführung des rekonstruierens den Prototypen war ein halber Erfolg trotz der fehlenden Bauteile,
 welche eigentlich für die Durchführung nötig waren. Diese ließen sich nämlich mit Alternativen austauschen ohne, dass es
-Probleme mit der bereit gestellten Firmware gab.
-Außerdem funktionierte der zusammengebaute Prototyp schon nach dem Aufspielen der Software.
+Probleme mit dem Stromkreis gab.
+Dennoch funktionierte der zusammengebaute Prototyp nicht nach dem Aufspielen der Software, da dies durch eine überspannung am USB-C Port nicht möglich war.
 Jedoch ist sollte ebenfalls genannt werden, dass komplikationen mit dem Design der 3D Modele hinsichtlich des Zusammenbaus gab, welche sich
 unter anderem dadurch äußerten, dass sich das Bauteil zur Befestigung der Screen View nur schwer mit der Mount Base zusammenbauen ließ.
 Ebenfalls hat sich herausgestellt, dass sich für die Mount Base kein einfacher Kunststoff eignet, da dieser allein unter der Belastung der Montage zerbrochen ist.
 Eine bessere Alternative ist in diesem Fall eine Mount Base aus Epoxidharz.
 Für den weiteren Verlauf des Projekts wäre zum Empfehlen, dass weitere anpassungen an elektronischen Komponenten von der Seite der technischen Informatik bzw. der Elektrotechnik
-vorgenommen wird, da für weitere Anpassung an der Haptik die Komplexität der Hardware verstanden werden muss. Die Aspekte zur intelligenten steuerung des Controllers durch
-Künstliche Intelligenz kann jedoch, weiterhin von der Informatik übernommen werden.
+vorgenommen wird, da für weitere Anpassung an der Haptik die Komplexität der Hardware verstanden werden muss. Außerdem kann ein spezialisiertes Hardwareteam auf Probleme seitens der elektronischen Komponenten besser eingehen.
+Die Aspekte von zur intelligenten steuerung des Controllers durch Künstliche Intelligenz kann jedoch, weiterhin von der Informatik übernommen werden.
