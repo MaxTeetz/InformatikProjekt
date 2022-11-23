@@ -153,6 +153,10 @@ deshalb wurde die mount base mittels schauben ein wenig angehoben, um dies zu er
 <img src="images/zusammenbau.jpeg"> <img src="images/zusammebau2.jpeg">
 </details>
 
+Zusammengebaut sieht das Projekt wie folgt aus:
+
+<img width="300" src="images/fertig.jpeg" height="300">
+
 ## Aufspielen der Software
 
 Für die Funktionalität des Controllers ist neben der Hardware auch Software zur Steuerung dieser nötig. 
