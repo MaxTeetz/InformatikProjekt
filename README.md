@@ -136,6 +136,16 @@ und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgende
 <img height="300" src="images/usb_mikroskop.jpeg" width="300"> <img height="300" src="images/usb.jpeg" width="300">
 <img height="300" src="images/mikroskop.jpeg" width="300"> <img height="300" src="images/screen_löten.jpeg" width="300"> 
 <img height="300" src="images/screen.jpeg" width="300"> <img height="300" src="images/ofen.jpeg" width="300">
+
+
+</details>
+
+<details>
+<summary>Verlöten der Kabel: </summary>
+<img height="300" src="images/löten1.jpeg" width="300"> <img height="300" src="images/löten2.jpeg" width="300">
+<img height="300" src="images/löten3.jpeg" width="300"> <img height="300" src="images/löten4.jpeg" width="300">
+<img height="300" src="images/löten5.jpeg" width="300"> <img height="300" src="images/löten6.jpeg" width="300">
+
 </details>
 
 ## Aufspielen der Software
