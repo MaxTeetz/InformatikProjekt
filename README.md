@@ -145,6 +145,14 @@ und die Kontaktstellen des Displays mit der Hand verlötet. Dies ist im folgende
 
 </details>
 
+Zusammengesetz war es jedoch durch die Dicke der Kabel nicht möglich den "Rotorspacer" ohne weiteres zu montieren,
+deshalb wurde die mount base mittels schauben ein wenig angehoben, um dies zu ermöglichen.
+
+<details>
+<summary> Anhebung der mount base </summary>
+<img src="images/zusammenbau.jpeg"> <img src="images/zusammebau2.jpeg">
+</details>
+
 ## Aufspielen der Software
 
 Für die Funktionalität des Controllers ist neben der Hardware auch Software zur Steuerung dieser nötig. 
