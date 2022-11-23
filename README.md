@@ -55,12 +55,9 @@ Da einige Bauteile u.a. auch der Motor nicht mehr hergestellt werden bzw. eine s
 wurde hier auf ähnliche Bauteile ausgewichen.
 
 Ausweichbauteile:
-1. Drucksensoren: https://de.aliexpress.com/item/4000204288561.html?gatewayAdapt=glo2deu
-2. Mineralglas: https://de.aliexpress.com/item/33055356489.html?gatewayAdapt=glo2deu
-3. Display: https://de.aliexpress.com/item/1005001321857930.html?gatewayAdapt=glo2deu
-4. USB Controller: https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html
-5. ESP32: https://de.aliexpress.com/item/1005002308952882.html?gatewayAdapt=glo2deu
-6. Motor: https://m.de.aliexpress.com/item/1005001968864724.html?spm=a2g0o.order_list.0.0.59c45c5fUXIEbl&gatewayAdapt=Pc2Msite
+1. Mineralglas: https://de.aliexpress.com/item/33055356489.html?gatewayAdapt=glo2deu
+2. USB Controller: https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html
+3. Motor: https://m.de.aliexpress.com/item/1005001968864724.html?spm=a2g0o.order_list.0.0.59c45c5fUXIEbl&gatewayAdapt=Pc2Msite
 ### Screen View:
 
 https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_screen-ibom.html
