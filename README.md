@@ -115,8 +115,16 @@ Da dieses Projekt einen Alternativen Motor für den haptischen Controller nutzt,
 Um dies zu erreichen, wurde zum Editieren der Bauteile, das open source Tool [Blender](https://www.blender.org/) genutzt.
 Hiermit wurden u.a. die Löcher für die Schrauben entfernt & das Bauteil skaliert.
 Außerdem wurde das Tool [FreeCAD](https://www.freecadweb.org/) genutzt, um benötigte löcher wieder hinzuzufügen.
+Die Anpassungen sind im Folgenden dargestellt.
+
+<details>
+    <summary> Anpassungen </summary>
+    <img width="300" height="300" src="images/3dmodel1.png">    <img width="300" height="300" src="images/3dmodel2.png">
+        <img width="300" height="300" src="images/3dmodel3.png">     <img width="300" height="300" src="images/3dmodel4.png">
+</details>
 
 Anschließend wurden die 3D-Modelle gedruckt, verwendet wurde herkömmlicher Kunststoff & Metall für die MountBase.
+
 
 Übersicht [3D-Bauteile](https://bezeklabs.autodesk360.com/g/shares/SH35dfcQT936092f0e4372570ef992887b79)
 
