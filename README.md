@@ -183,7 +183,7 @@ am USB-C Port, was darauf hindeutet, dass der USB-C Port eventuell defekt sein k
 auszugleichen.
 
 
-## Reflextion des Projekts
+## Reflexion des Projekts
 
 Die Rekonstruktion des Prototypens war ein halber Erfolg trotz der fehlenden Bauteile,
 welche eigentlich für die Durchführung nötig waren. Diese ließen sich nämlich mit Alternativen austauschen ohne, dass es
