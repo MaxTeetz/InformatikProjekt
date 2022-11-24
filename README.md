@@ -4,8 +4,7 @@
 
 Das Ziel des Forschungs- und Entwicklungsvorhabens »DREA« ist die Entwicklung eines innovativen haptischen Drehcontrollers, welcher 
 für die Nutzung multifunktionaler Systeme genutzt werden kann. In Aussicht steht, diesen Drehcontroller mit einer Griff- und Gestensteuerung zu versehen,
-um damit eine große Anzahl von Funktionen auf verschiedenen Geräten zu ermöglichen. Die Idee basiert darauf, dass beispielsweise mit drei Fingern die
-Lautstärke reguliert und mit vier Fingern die Anwendung gewechselt werden kann. 
+um damit eine große Anzahl von Funktionen auf verschiedenen Geräten zu ermöglichen. Die Idee basiert darauf, dass beispielsweise über Druck die Anwendung gewechselt und über verschiedene Drehbewegungen die Lautstärke gewechselt wird.
 Ebenso soll der Drehcontroller über haptisches Feedback verfügen, damit eine intuitive bzw. barrierefreie Nutzung möglich wird. 
 Somit besteht der erste Meilenstein in der Konzeption, sowie der Prototypentwicklung, als auch der Evaluation des Drehcontrollers auf Basis
 von integrierter Elektronik und Software. Zweiteres wird im zweiten Meilenstein kontinuierlich weiterentwickelt und hat die Zielsetzung intelligentes verhalten
