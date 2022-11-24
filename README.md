@@ -55,9 +55,9 @@ Da einige Bauteile u.a. auch der Motor nicht mehr hergestellt werden bzw. eine s
 wurde hier auf ähnliche Bauteile ausgewichen.
 
 Ausweichbauteile:
-1. Mineralglas: https://de.aliexpress.com/item/33055356489.html?gatewayAdapt=glo2deu
-2. USB Controller: https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH340C_C84681.html
-3. Motor: https://m.de.aliexpress.com/item/1005001968864724.html?spm=a2g0o.order_list.0.0.59c45c5fUXIEbl&gatewayAdapt=Pc2Msite
+1. Mineralglas: https://de.aliexpress.com/item/33055356489.html?gatewayAdapt=glo2deu - unterschiedlicher Durchmesser
+2. Bipolartransistor: [Alternative](https://www.mouser.de/ProductDetail/Nexperia/PMBT4403235?qs=LOCUfHb8d9vNp5NBUNhG6Q%3D%3D)  - [Original](https://www.lcsc.com/product-detail/Bipolar-Transistors-BJT_onsemi-MMBT4403LT1G_C78864.html)
+3. Motor: [Alternative](https://m.de.aliexpress.com/item/1005001968864724.html?spm=a2g0o.order_list.0.0.59c45c5fUXIEbl&gatewayAdapt=Pc2Msite) - [Original](https://www.sparkfun.com/products/20441)
 ### Screen View:
 
 https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_screen-ibom.html
